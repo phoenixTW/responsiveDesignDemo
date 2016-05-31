@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px){
+    .action-bar i:nth-child(n) {
+        display: none;
+    }
+
+    .action-bar i:first-child {
+        display: block;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .action-bar {
+        margin-right: 0;
+    }
+}

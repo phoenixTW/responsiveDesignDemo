@@ -7,10 +7,17 @@ html
 
     link(rel='stylesheet', href='./index.css')
     link(rel='stylesheet', href='./common/variables.css')
+    link(rel='stylesheet', href='./mobile/header.css')
     link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600,600italic,400italic,300italic,300', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css')
   body
     .header-wrapper
         span.logo Responsive Design
+        .action-bar
+            i.fa.fa-search(aria-hidden='true')
+            i.fa.fa-globe(aria-hidden='true')
+            i.fa.fa-users(aria-hidden='true')
+            i.fa.fa-sign-out(aria-hidden='true')
     .content-body
         .body-header
             .title A demo of Responsive Design
