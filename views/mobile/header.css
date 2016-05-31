@@ -8,6 +8,36 @@
         font-size: 18px;
         margin-top: 10px;
     }
+
+    .mobile-action-header {
+        display: block;
+        width: 100%;
+        height: 40px;
+        border-bottom: 1px solid #848484;
+        position: fixed;
+        top: 60px;
+        left: 0;
+        background-color: #F2F2F2;
+    }
+
+    .mobile-action-header i {
+        color: #848484;
+        display: inline-block;
+        float: left;
+        border-right: 3px solid darkgray;
+        height: 100%;
+        width: 24%;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .mobile-action-header i:last-child {
+        border: none;
+    }
+
+    .content-body {
+        margin-top: 120px;
+    }
 }
 
 @media screen and (max-width: 450px) {

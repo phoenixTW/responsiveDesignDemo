@@ -63,3 +63,8 @@
 .action-bar i:nth-last-child(1) {
     margin-right: 0px;
 }
+
+/*Mobile header*/
+.mobile-action-header {
+    display: none;
+}
