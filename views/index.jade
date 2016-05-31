@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    link(rel='stylesheet', href='./common/mobile.css')
+    .image-wrapper
+        each picture in pictures
+            img(src=picture, class="image-container")

@@ -1,0 +1,6 @@
+:root {
+    --medium-devices-desktop-min: 992px;
+    --large-devices-desktop-min: 1200px;
+    --small-devices-tablet-min: 768px;
+    --extra-devices-phone-max: 768px;
+}

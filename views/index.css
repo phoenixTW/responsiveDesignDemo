@@ -1,0 +1,47 @@
+.header-wrapper {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0B0B3B;
+}
+
+.logo {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 20px;
+    position: fixed;
+    top: 15px;
+    left: 100px;
+}
+
+.content-body {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.body-header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    height: 150px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.body-header .title {
+    margin-top: 140px;
+}
+
+.image-wrapper {
+    padding: 30px 50px;
+}
+
+.image-container {
+    width: 20%;
+    height: 200px;
+    border: 10px solid black;
+    display: inline-block;
+    margin-right: 50px;
+}
